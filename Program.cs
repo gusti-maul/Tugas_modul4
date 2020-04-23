@@ -15,7 +15,7 @@
                 
                 //info pembeli
                 string nama;
-                Console.WriteLine("Masukan Nama Anda = ");
+                Console.WriteLine("Silahkan Masukan Nama Anda = ");
                 nama = (Console.ReadLine());
                 //rumus
                 double nominal, keuntungan, untung;
@@ -30,6 +30,7 @@
                 }
                 else if (nominal >= 1000000 || nominal <= 3000000000)
                 {
+                    
                     int i = 1;
                     while (i < 13)
                     {
