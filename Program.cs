@@ -23,7 +23,7 @@
                 nominal = Convert.ToInt32(Console.ReadLine());
                 keuntungan = nominal * 0.063 * 0.85 / 12;
                 untung = keuntungan * 12;
-                Console.WriteLine("Nama Anda Adalah = ");
+                Console.WriteLine("Nama Anda Adalah = " +nama);
                 if (nominal < 1000000)
                 {
                     Console.WriteLine("Minimal Pembelian SBR Adalah Rp. 1000000 dan maksimal Rp. 3000000000");
